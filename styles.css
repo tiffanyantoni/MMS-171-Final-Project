@@ -8,7 +8,7 @@ body {
     margin: 40px;
 }
 
-/* Style for Hero Section */
+/* Style for About Me Section */
 .about-hero {
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@ body {
     border: #3C2525 2px solid;
     background-color: #FFF9EE;
     padding: 50px;
-    margin: 30px 0;
+    margin: 30px 0 70px;
     border-radius: 10px;
 }
 
@@ -126,40 +126,10 @@ p {
     text-decoration: underline;
 }
 
-/* Style for About Me Section */
-.about-me {
-    margin-top: 30px;
-    margin-bottom: 35px;
-}
-
-.contents {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    background-color: #FFF5F9;
-    padding: 20px;
-    border: #3C2525 2px solid;
-    border-radius: 5px;
-    box-shadow: #D9A9BD 4px 4px 7px;
-    margin-top: 10px;
-}
-
-.my-profile-image {
-    flex: 0 1 350px;
-    min-width: 0;
-}
-
-.text {
-   flex: 1;
-   text-align: justify;
-   padding: 10px;
-   margin: 0;
-   line-height: 1.5;
-}
 
 /* Style for Things I Love Section */
 .things-i-love {
-    margin-top: 50px;
+    margin: 70px 0;
 }
 
 .things-i-love li {
@@ -197,7 +167,8 @@ p {
 
 /* Style for Passion Projects Section */
 .passion-projects {
-    margin-top: 50px;
+    margin: 70px 0;
+    
 }
 
 .passion-projects h2 {
@@ -261,7 +232,7 @@ p {
 
 /* Style for Contact Section */
 footer {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 footer ul {
@@ -294,41 +265,25 @@ footer p {
 
 @media (max-width: 600px) {
     body {
-        margin: 20px
+        margin: 20px;
+    }
+    
+ .about-hero {
+        flex-direction: column-reverse;
+        padding: 25px;
+        gap: 20px;
     }
 
-    header {
-        display: block;
-        box-sizing: border-box;
-        max-width: 100%
+    .about-content h1 {
+        font-size: 2.8rem;
     }
 
-    h1 {
-        overflow-wrap: break-word;
-    }
-
-    .my-profile-image {
-        flex: 100%;
+    .about-image {
         width: 100%;
     }
 
-    .my-profile-image img {
-        display: block;
-        width: 100%;
-        height: auto;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-
-    .text {
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-    }
-
-    .contents {
-        flex-direction: column;
-        align-items: stretch;
+    .about-image img {
+        height: 400px;
     }
 
     .things-i-love ul {
@@ -337,15 +292,15 @@ footer p {
     }
 
     .container {
-        flex-direction: column ;
+        flex-direction: column;
     }
 
-    .project { 
+    .project {
         width: auto;
     }
 
     .project img,
     .project video {
-        width: 100%;
+        width: 100%;    
     }
 }
