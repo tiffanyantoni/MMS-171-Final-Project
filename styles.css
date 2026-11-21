@@ -4,12 +4,13 @@
 .page-container {
     background-color: #FFF9EE;
     padding: 40px;
-    border: 2px solid #3C2525
+    border: 2px solid #3C2525;
     border-radius: 15px;
     max-width: 1400px;
     margin: 0 auto;
     box-shadow:  #D9A9BD 4px 4px 7px
 }
+
 body {
     background-color: #ffe0ef;
     color: #3C2525;
@@ -268,9 +269,13 @@ footer p {
 }
 
 @media (max-width: 600px) {
-    body {
-        margin: 20px;
-    }
+body {
+    margin: 20px;
+}
+
+.page-container {
+    padding: 20px;
+}
     
  .about-hero {
         flex-direction: column-reverse;
@@ -278,33 +283,33 @@ footer p {
         gap: 20px;
     }
 
-    .about-content h1 {
+.about-content h1 {
         font-size: 2.8rem;
-    }
+}
 
-    .about-image {
+.about-image {
         width: 100%;
-    }
+}
 
-    .about-image img {
-        height: 400px;
-    }
+.about-image img {
+    height: 400px;
+}
 
-    .things-i-love ul {
-        flex-direction: column;
-        align-items: stretch;
-    }
+.things-i-love ul {
+    flex-direction: column;
+    align-items: stretch;
+}
 
-    .container {
-        flex-direction: column;
-    }
+.container {
+    flex-direction: column;
+}
 
-    .project {
-        width: auto;
-    }
+.project {
+    width: auto;
+}
 
-    .project img,
-    .project video {
-        width: 100%;    
-    }
+.project img,
+.project video {
+    width: 100%;    
+}
 }
