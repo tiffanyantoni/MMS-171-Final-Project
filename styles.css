@@ -8,12 +8,10 @@ body {
     margin: 40px;
 }
 
-/* ABOUT ME HERO SECTION */
-
+/* Style for Hero Section */
 .about-hero {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 50px;
 
     background-color: #FFF9EE;
@@ -26,7 +24,8 @@ body {
 /* INTRODUCTION */
 
 .about-content {
-    flex: 1;
+    flex: 1.1;
+    min-width: 0;
 }
 
 .eyebrow {
@@ -60,7 +59,8 @@ body {
 /* PORTRAIT */
 
 .about-image {
-    flex: 1;
+    flex: 0.9;
+    min-width: 0;
 }
 
 .about-image img {
