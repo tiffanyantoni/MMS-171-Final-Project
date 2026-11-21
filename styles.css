@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oranienbaum&display=swap');
 
 /* Style for Whole Page */
+.page-container {
+    background-color: #FFF9EE;
+    padding: 40px;
+    border: 2px solid #3C2525
+    border-radius: 15px;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-shadow:  #D9A9BD 4px 4px 7px
+}
 body {
     background-color: #ffe0ef;
     color: #3C2525;
@@ -119,11 +128,6 @@ p {
     font-size: 1.0625rem;
     line-height: 1.5;
     margin-bottom: 15px;
-}
-
-/* Style for Underline Text */
-.underline {
-    text-decoration: underline;
 }
 
 
