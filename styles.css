@@ -13,15 +13,12 @@ body {
     display: flex;
     align-items: center;
     gap: 50px;
-
+    border: #3C2525 2px solid;
     background-color: #FFF9EE;
     padding: 50px;
     margin: 30px 0;
-
     border-radius: 10px;
 }
-
-/* INTRODUCTION */
 
 .about-content {
     flex: 1.1;
@@ -58,8 +55,6 @@ body {
     text-align: justify;
 }
 
-/* PORTRAIT */
-
 .about-image {
     flex: 0.9;
     min-width: 0;
@@ -72,6 +67,8 @@ body {
     object-position: center;
     border-radius: 8px;
     display: block;
+    box-shadow: #D9A9BD 4px 4px 7px;
+    
 }
 
 /* Style for Headers */
@@ -150,16 +147,6 @@ p {
 .my-profile-image {
     flex: 0 1 350px;
     min-width: 0;
-}
-
-.my-profile-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-    max-width: 100%;
-    border-radius: 5px;
-    object-fit: cover;
-    box-shadow: #D9A9BD 4px 4px 7px;
 }
 
 .text {
